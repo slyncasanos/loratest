@@ -9,9 +9,9 @@
 #include <SPI.h>
 #include <RH_RF95.h>
 
-  #define RFM95_CS    8
-  #define RFM95_INT   7
-  #define RFM95_RST   4
+  #define RFM95_CS    18
+  #define RFM95_INT   26
+  #define RFM95_RST   14
 
 // Change to 434.0 or other frequency, must match RX's freq!
 #define RF95_FREQ 868.0
